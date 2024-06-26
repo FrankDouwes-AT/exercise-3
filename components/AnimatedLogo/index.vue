@@ -115,7 +115,7 @@ const dynamicClasses = (wordIndex: number, letterIndex: number) => {
 
   @for $i from 0 through 8 {
     &--tint-#{$i} {
-      filter: brightness(1 + ($i * 0.05));
+      filter: brightness(1 + ($i * 0.075));
     }
   }
 }
