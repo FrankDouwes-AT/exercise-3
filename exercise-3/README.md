@@ -1,18 +1,16 @@
 # Exercise 3
 
 This ended up being a lot more work, setting up a half decent nuxt3 app simply takes time
-things that were skipped: component name prefixing, pages/routing, composables, better form input errors etc.
+things that were skipped: component name prefixing, pages/routing, composables.
 
 It should give a brief overview on how I approach a nuxt3 app, given the timeframe
 / holiday situation.
 
-## app
-
-The input array (and the result, based on needle / number) get used to render and Animate the AvroTros logo.
-
-### Setup
+The input array and the result get used to render an AvroTros logo.
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+
+## Setup
 
 Make sure to install the dependencies:
 
@@ -31,6 +29,8 @@ bun install
 ```
 
 ## Development Server
+
+Requires node 18+
 
 Start the development server on `http://localhost:3000`:
 
