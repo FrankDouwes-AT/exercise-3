@@ -52,8 +52,8 @@
       </div>
 
       <div class="actions">
-        <button class="actions__button actions__button--primary" type="button" @click.prevent="onFormSubmit" :disabled="state.loading || state.cycling">Submit</button>
-        <button ref="cycleBtnRef" class="actions__button actions__button--secondary" type="button" @click.prevent="onFormCycle">
+        <button aria-label="submit" lass="actions__button actions__button--primary" type="button" @click.prevent="onFormSubmit" :disabled="state.loading || state.cycling">Submit</button>
+        <button aria-label="cycle" ref="cycleBtnRef" class="actions__button actions__button--secondary" type="button" @click.prevent="onFormCycle">
           {{(state.cycling) ? "Stop cycle" : "Start cycle"}}
         </button>
       </div>
